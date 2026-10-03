@@ -1,5 +1,7 @@
 # NaHollo 소개 사이트
 
+공개 주소: https://nahollotrip.github.io/
+
 별도 설치 없이 동작하는 정적 웹사이트입니다. index.html, privacy.html, terms.html, style.css, assets 폴더를 GitHub Pages 전용 공개 저장소의 루트에 올리세요. 앱 저장소, .env, 인증 정보, 사용자 기록은 포함하지 않습니다.
 
 ## GitHub Pages 배포
@@ -15,4 +17,4 @@
 - 화면 도형은 소개용 예시로 표시했습니다. 실제 화면은 개인 정보 없는 데모 계정 이미지로 교체 가능합니다.
 - App Store 등록 후 출시 안내 영역을 실제 다운로드 링크로 교체하세요. 현재 가짜 다운로드 링크/가입 폼/추적 도구는 없습니다.
 - Fonts: Google Fonts Noto Sans KR (로컬 시스템 글꼴 대체 가능). 사진: Unsplash https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1 .
-- 아직 외부에 게시되지 않은 로컬 초안입니다.
+- 소개 사이트는 공개됐고, 정책 페이지의 내용은 출시 전 검토 초안입니다.
