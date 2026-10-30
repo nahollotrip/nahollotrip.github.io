@@ -10,3 +10,6 @@
 .nav-cta{display:inline-flex;align-items:center;justify-content:center;text-align:center}.floating-note{display:flex;align-items:center;justify-content:center;text-align:center;transform:none}.button{justify-content:center;text-align:center;gap:16px}.down-arrow{width:18px;height:18px;flex-shrink:0;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
 
 .launch{border-radius:0}
+
+/* User-provided app captures, 2026-10-30. Preserve screenshot proportions. */
+.phone.capture-phone{padding:4px;border:7px solid #fff;border-radius:37px;background:#fff;overflow:hidden}.capture-phone img{display:block;width:100%;height:auto;border-radius:26px}.feature-illustration.capture-feature{height:300px;overflow:hidden;border:5px solid #fff;border-radius:22px;background:#fff}.capture-feature img{display:block;width:100%;height:auto}.capture-collection{max-width:300px;margin:auto;border:7px solid #fff;border-radius:30px;overflow:hidden;box-shadow:8px 15px 25px #224b4110}.capture-collection img{display:block;width:100%;height:auto}@media(max-width:600px){.phone.capture-phone{border-width:5px}.feature-illustration.capture-feature{height:280px}}
