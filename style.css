@@ -13,3 +13,6 @@
 
 /* User-provided app captures, 2026-10-30. Preserve screenshot proportions. */
 .phone.capture-phone{padding:4px;border:7px solid #fff;border-radius:37px;background:#fff;overflow:hidden}.capture-phone img{display:block;width:100%;height:auto;border-radius:26px}.feature-illustration.capture-feature{height:300px;overflow:hidden;border:5px solid #fff;border-radius:22px;background:#fff}.capture-feature img{display:block;width:100%;height:auto}.capture-collection{max-width:300px;margin:auto;border:7px solid #fff;border-radius:30px;overflow:hidden;box-shadow:8px 15px 25px #224b4110}.capture-collection img{display:block;width:100%;height:auto}@media(max-width:600px){.phone.capture-phone{border-width:5px}.feature-illustration.capture-feature{height:280px}}
+
+/* 11/04 출시: 첫 화면의 App Store 링크는 작은 글자라 밑줄로 누를 수 있음을 보여 준다. */
+a.launch-note{text-decoration:underline;text-underline-offset:3px;color:var(--forest);font-weight:700}
