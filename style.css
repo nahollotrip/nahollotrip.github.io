@@ -200,3 +200,12 @@ main h1,main h2,main h3,.button,.nav-cta,.release-badge{font-family:'Godo','Noto
 @media(max-width:1000px){.app-previews{width:240px;padding-top:78px}.hero-mascot{width:116px;top:90px;left:50%;transform:translate(-50%,-100%)}.app-previews::before{inset:140px -20px 42px -20px}}
 @media(max-width:700px){.app-previews{width:238px;margin:0 auto;padding-top:78px;max-width:100%}.hero-mascot{width:116px;left:50%;top:90px;transform:translate(-50%,-100%)}.app-previews::before{inset:138px -14px 42px -14px}.app-preview figcaption{margin:16px 0 0}}
 @media(max-width:360px){.app-previews{width:220px}.hero-mascot{width:110px;top:90px;left:50%}}
+
+/* Full character and phone share a baseline; use the supplied vector wordmark. */
+.app-previews{display:grid;grid-template-columns:155px minmax(0,280px);gap:12px;align-items:end;width:100%;max-width:447px;padding-top:0;margin:0 auto}
+.hero-mascot{position:static;display:block;width:100%;max-width:100%;height:auto;transform:none;margin:0 0 38px;align-self:end}
+.app-previews::before{inset:70px -18px 42px 163px}
+.footer .wordmark{display:block;width:142px;height:auto}
+@media(max-width:1000px){.app-previews{grid-template-columns:100px minmax(0,240px);gap:8px;max-width:348px;padding-top:0}.hero-mascot{position:static;width:100%;transform:none;margin-bottom:36px}.app-previews::before{inset:65px -12px 42px 110px}}
+@media(max-width:700px){.app-previews{grid-template-columns:minmax(0,.56fr) minmax(0,1fr);gap:10px;width:100%;max-width:360px;margin:0 auto;padding-top:0}.hero-mascot{position:static;width:100%;height:auto;transform:none;margin-bottom:34px}.app-previews::before{inset:60px -6px 40px 37%}.app-preview figcaption{font-size:10px;line-height:1.5;margin-top:14px}.footer .wordmark{width:130px}}
+@media(max-width:360px){.app-previews{width:100%;max-width:100%}.hero-mascot{width:100%;position:static;transform:none}}
