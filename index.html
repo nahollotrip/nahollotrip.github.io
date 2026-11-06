@@ -4,70 +4,84 @@
   <meta name="google-site-verification" content="LzXpy3SUbJceDHVEgTbaJWKhx4JlzNPL02CakyC_Hi0" />
   <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
   <title>NaHollo — 혼자 떠나는 모든 순간을 위한 가이드</title>
-  <meta name="description" content="혼자 가기 좋은 장소를 발견하고, 나만의 여정을 만들고, 여행의 순간을 도감에 모으세요. 나홀로 NaHollo.">
-  <meta name="theme-color" content="#224B41"><meta property="og:title" content="NaHollo — 혼자 떠나는 모든 순간을 위한 가이드"><meta property="og:description" content="내 속도로 떠나고, 나만의 이야기로 남기는 여행.">
-  <link rel="icon" href="assets/logo.png"><link rel="stylesheet" href="style.css?v=20261106-6">
+  <meta name="description" content="혼자 가기 좋은 곳을 찾고, 내 속도로 여행하며 나만의 여행을 기록해요. 나홀로는 혼자 여행하는 사람을 위해 만들었어요.">
+  <meta name="theme-color" content="#224B41"><meta property="og:title" content="NaHollo — 혼자 떠나는 모든 순간을 위한 가이드"><meta property="og:description" content="혼자 가기 좋은 곳을 찾고, 내 속도로 여행하며 나만의 여행을 기록해요.">
+  <link rel="icon" href="assets/logo.png">
+  <link rel="preload" href="assets/fonts/godo-b-subset.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="home.css?v=20261106-7">
 </head>
 <body>
   <a class="skip" href="#main">본문으로 이동</a>
-  <header class="header"><a class="brand" href="./" aria-label="NaHollo 홈"><span class="logo"><img src="assets/logo.png" alt=""></span></a><nav aria-label="주요 메뉴"><a href="#guide">여행의 시작</a><a href="#collection">나의 여행도감</a><a class="nav-cta" href="https://apps.apple.com/kr/app/id6821285344" target="_blank" rel="noopener">앱 다운로드</a></nav></header>
+  <header class="header">
+    <a href="./" class="logo" aria-label="NaHollo 홈"><img src="assets/logo.png" alt="NaHollo"></a>
+    <nav aria-label="주요 메뉴"><a href="#discover">발견</a><a href="#plan">계획</a><a href="#collection">기록·도감</a><a class="cta" href="https://apps.apple.com/kr/app/id6821285344" target="_blank" rel="noopener">앱 다운로드</a></nav>
+  </header>
   <main id="main">
     <section class="hero wrap">
-      <div class="hero-copy">
+      <div>
+        <span class="kicker">App Store 출시</span>
         <h1>혼자 떠나는<br>모든 순간을 위한<br><em>가이드</em></h1>
-        <p class="lead">혼자 가기 좋은 곳을 찾고, 내 속도로 여행해요. 다녀온 곳과 사진은 나만의 여행도감에 모아두세요.</p>
-        <div class="hero-actions">
-          <a class="button dark" href="https://apps.apple.com/kr/app/id6821285344" target="_blank" rel="noopener">App Store에서 다운로드</a>
-          <a class="explore-link" href="#guide">나홀로 둘러보기</a>
+        <p class="lead">혼자 가기 좋은 곳을 찾고, 내 속도로 여행하며<br>나만의 여행을 기록해요.<br><strong>나홀로는 혼자 여행하는 사람을 위해 만들었어요.</strong></p>
+        <div class="actions">
+          <a class="store" href="https://apps.apple.com/kr/app/id6821285344" target="_blank" rel="noopener" aria-label="App Store에서 다운로드"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16.4 12.6c0-2.4 2-3.5 2-3.6-1.1-1.6-2.8-1.8-3.4-1.8-1.4-.2-2.8.8-3.5.8-.7 0-1.9-.8-3-.8-1.6 0-3 .9-3.8 2.3-1.6 2.8-.4 7 1.2 9.3.8 1.1 1.7 2.4 2.9 2.3 1.2 0 1.6-.7 3-.7s1.8.7 3 .7c1.3 0 2.1-1.1 2.8-2.3.9-1.3 1.3-2.6 1.3-2.6s-2.5-1-2.5-3.6zM14.1 5.6c.6-.8 1.1-1.9 1-3-1 0-2.1.6-2.8 1.4-.6.7-1.1 1.8-1 2.9 1.1.1 2.1-.5 2.8-1.3z"/></svg><div><small>Download on the</small><span>App Store</span></div></a>
+          <a class="ghost" href="#discover">어떤 앱인지 볼래요</a>
         </div>
       </div>
-      <div class="app-previews" aria-label="나홀로 실제 앱 화면"><img class="hero-mascot" src="assets/character-standing.webp" width="480" height="626" alt="" aria-hidden="true">
-        <figure class="app-preview preview-collection">
-          <div class="screen-frame"><img src="assets/intro-collection.png" width="1170" height="2532" alt="다녀온 장소와 사진이 나라별로 모인 나의 여행도감" fetchpriority="high"></div>
-          <figcaption>여행이 쌓이는 나만의 도감</figcaption>
-        </figure>
+      <div class="hero-art">
+        <div class="phone"><img src="assets/intro-home.png" width="1170" height="2532" alt="나홀로 앱의 홈 화면" fetchpriority="high"></div>
+        <div class="cat"><img src="assets/character-side.webp" width="347" height="480" alt="" aria-hidden="true"></div>
       </div>
     </section>
 
-    <section id="guide" class="section wrap">
-      <div class="section-top">
-        <div><p class="eyebrow">나홀로와 떠나는 여행</p><h2>여행의 시작은 가볍게.</h2></div>
-      </div>
-      <div class="feature-grid">
-        <article id="discover" class="feature feature-green"><div class="feature-copy"><p class="step-label"><span>01</span> 발견</p>
-          <h3>가고 싶은 곳을<br>하나씩 발견해요.</h3>
-          <p>나의 여행 스타일에 맞는 장소와 추천 코스를 살펴봐요. 지도에서 마음에 든 곳은 나만의 폴더에 저장해요.</p></div>
-          <div class="feature-illustration capture-feature"><img src="assets/intro-course.png" width="1170" height="2532" alt="혼자 방문할 때의 팁을 담은 추천 코스 상세 화면" loading="lazy"></div>
-        </article>
-        <article id="plan" class="feature feature-peach"><div class="feature-copy"><p class="step-label"><span>02</span> 계획</p>
-          <h3>하루의 속도는<br>내가 정해요.</h3>
-          <p>저장한 장소를 이어 나만의 여정을 만들어요. 날짜별로 갈 곳을 정하고, 장소 사이의 이동 구간도 확인해요.</p></div>
-          <div class="feature-illustration capture-feature"><img src="assets/intro-itinerary.png" width="1170" height="2532" alt="날짜별 일정과 장소 사이 이동 구간을 보여주는 제주 여행 화면" loading="lazy"></div>
-        </article>
-      </div>
-    </section>
-    <section id="record" class="record wrap">
-      <div><p class="step-label"><span>03</span> 기록</p><h2>다녀온 곳을,<br>내 이야기로 남겨요.</h2></div>
-      <div class="record-copy">
-        <p>방문한 장소에 사진과 후기를 남겨요.<br>다시 가고 싶은 곳도, 그날의 작은 발견도 기억할 수 있게요.</p>
-        <p>나만 보고 싶은 순간은 개인 기록으로,<br>나누고 싶은 발견은 공개로 남겨요.</p>
-        <p class="record-detail">같은 계정으로 로그인하면 다른 기기에서도 기록을 이어갈 수 있어요.</p>
-        <a class="text-link" href="#collection">기록이 모인 여행도감 보기</a>
-      </div>
-    </section>
-    <section id="collection" class="collection">
-      <div class="wrap collection-inner">
-        <div class="collection-art"><div class="capture-collection"><img src="assets/intro-collection.png" width="1170" height="2532" alt="나라별로 방문한 장소와 사진이 쌓인 여행도감" loading="lazy"></div></div>
-        <div class="collection-copy">
-          <p class="step-label"><span>04</span> 도감</p>
-          <h2>내가 다녀온 곳이,<br><em>나만의 여행도감으로.</em></h2>
-          <p>여행하며 남긴 사진과 후기가 여행도감에 쌓여요.<br>어느 나라에서 무엇을 만났는지 한눈에 돌아봐요.</p>
-          <p>새로운 지역과 다양한 경험을 만날수록<br>나의 여행자 이야기도 함께 성장해요.</p>
-          <div class="pill-list"><span>방문한 지역</span><span>사진과 후기</span><span>여행자의 성장</span></div>
+    <section id="discover" class="chapter discover">
+      <div class="wrap">
+        <div>
+          <span class="tag">발견</span>
+          <h2>혼자 가도<br>편한 곳만 골라 봤어요.</h2>
+          <p class="body">추천 코스마다 <b>혼자 가기 편한지</b>, 얼마나 걸리는지 먼저 알려 줘요. 마음에 든 곳은 지도에서 바로 내 폴더에 저장해요.</p>
+          <ul class="points"><li>혼자 편안</li><li>예상 반나절~하루</li><li>혼밥 OK</li></ul>
+        </div>
+        <div class="stage">
+          <div class="phone"><img src="assets/intro-course.png" width="1170" height="2532" alt="혼자 방문할 때의 팁을 담은 추천 코스 상세 화면" loading="lazy"></div>
         </div>
       </div>
     </section>
-    <section id="launch" class="launch wrap"><h2>다음 여행은,<br>NaHollo와 함께.</h2><p>혼자 떠나는 모든 순간을 위한 가이드</p><a class="release-badge" href="https://apps.apple.com/kr/app/id6821285344" target="_blank" rel="noopener">App Store에서 다운로드</a><br><a class="contact" href="mailto:nahollotrip@gmail.com">나홀로에 문의하기</a></section>
+
+    <section id="plan" class="chapter plan">
+      <div class="wrap">
+        <div class="stage">
+          <div class="phone"><img src="assets/intro-itinerary.png" width="1170" height="2532" alt="날짜별 일정과 장소 사이 이동 구간을 보여주는 제주 여행 화면" loading="lazy"></div>
+        </div>
+        <div>
+          <span class="tag">계획</span>
+          <h2>빼곡한 계획 말고,<br>내 속도대로.</h2>
+          <p class="body">저장한 장소를 날짜별로 이어 붙이면 여정이 돼요. 장소 사이 <b>이동 구간</b>까지 미리 보여 주니까, 낯선 곳에서도 덜 헤매요.</p>
+          <ul class="points"><li>날짜별 일정</li><li>이동 구간</li><li>여행 준비 체크</li></ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="collection" class="chapter collection">
+      <div class="wrap">
+        <div>
+          <span class="tag">기록 · 도감</span>
+          <h2>다녀온 곳이<br><em>나만의 여행도감으로.</em></h2>
+          <p class="body wide">사진과 후기를 남기면 여행도감에 차곡차곡 쌓여요.<br>새로운 나라에 갈수록 <b>나의 여행자 레벨</b>도 올라가요.</p>
+        </div>
+        <div class="stage">
+          <div class="phone"><img src="assets/intro-collection.png" width="1170" height="2532" alt="나라별로 방문한 장소와 사진이 쌓인 여행도감" loading="lazy"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="launch" class="closing">
+      <div class="stage2"><div class="cat"><img src="assets/character-wink.webp" width="360" height="478" alt="" aria-hidden="true" loading="lazy"></div></div>
+      <h2>다음 여행은 나홀로와.</h2>
+      <p>혼자 떠나는 모든 순간을 위한 가이드</p>
+      <a class="store" href="https://apps.apple.com/kr/app/id6821285344" target="_blank" rel="noopener" aria-label="App Store에서 다운로드"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16.4 12.6c0-2.4 2-3.5 2-3.6-1.1-1.6-2.8-1.8-3.4-1.8-1.4-.2-2.8.8-3.5.8-.7 0-1.9-.8-3-.8-1.6 0-3 .9-3.8 2.3-1.6 2.8-.4 7 1.2 9.3.8 1.1 1.7 2.4 2.9 2.3 1.2 0 1.6-.7 3-.7s1.8.7 3 .7c1.3 0 2.1-1.1 2.8-2.3.9-1.3 1.3-2.6 1.3-2.6s-2.5-1-2.5-3.6zM14.1 5.6c.6-.8 1.1-1.9 1-3-1 0-2.1.6-2.8 1.4-.6.7-1.1 1.8-1 2.9 1.1.1 2.1-.5 2.8-1.3z"/></svg><div><small>Download on the</small><span>App Store</span></div></a>
+      <a class="contact" href="mailto:nahollotrip@gmail.com">나홀로에 문의하기</a>
+    </section>
   </main>
-  <footer class="wrap footer"><a class="brand" href="./" aria-label="NaHollo 홈"><img class="wordmark" src="assets/nahollo-wordmark.svg" width="835" height="155" alt="NaHollo"></a><div><nav aria-label="서비스 안내"><a href="privacy.html">개인정보처리방침</a><a href="terms.html">이용약관</a><a href="mailto:nahollotrip@gmail.com">문의</a></nav><p>운영자 서다은 · nahollotrip@gmail.com<br>© 2026 NaHollo.</p></div></footer>
-</body></html>
+  <footer class="footer"><div class="wrap"><a href="./" aria-label="NaHollo 홈"><img class="wordmark" src="assets/nahollo-wordmark.svg" width="835" height="155" alt="NaHollo"></a><nav aria-label="서비스 안내"><a href="privacy.html">개인정보처리방침</a><a href="terms.html">이용약관</a><a href="mailto:nahollotrip@gmail.com">문의</a></nav><span>운영자 서다은 · nahollotrip@gmail.com · © 2026 NaHollo</span></div></footer>
+</body>
+</html>
