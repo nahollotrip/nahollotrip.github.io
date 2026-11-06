@@ -191,3 +191,12 @@ main h1,main h2,main h3,.button,.nav-cta,.release-badge{font-family:'Godo','Noto
 @media(max-width:360px){.hero-actions{align-items:stretch;flex-direction:column}.hero .button,.hero .explore-link{width:100%}.app-previews{width:220px}.hero-mascot{width:160px;left:-82px;top:215px}}
 .record-mascot{height:82px;top:-82px}
 @media(max-width:700px){.record-mascot{height:72px;top:-72px}}
+
+/* The paws rest on the phone rim; keep the face complete and remove floating heads. */
+.app-previews{padding-top:86px;width:280px}
+.app-previews::before{inset:148px -30px 45px -30px}
+.app-preview figcaption{margin:18px 0 0}
+.hero-mascot{z-index:3;width:128px;height:auto;left:50%;top:98px;transform:translate(-50%,-100%)}
+@media(max-width:1000px){.app-previews{width:240px;padding-top:78px}.hero-mascot{width:116px;top:90px;left:50%;transform:translate(-50%,-100%)}.app-previews::before{inset:140px -20px 42px -20px}}
+@media(max-width:700px){.app-previews{width:238px;margin:0 auto;padding-top:78px;max-width:100%}.hero-mascot{width:116px;left:50%;top:90px;transform:translate(-50%,-100%)}.app-previews::before{inset:138px -14px 42px -14px}.app-preview figcaption{margin:16px 0 0}}
+@media(max-width:360px){.app-previews{width:220px}.hero-mascot{width:110px;top:90px;left:50%}}
